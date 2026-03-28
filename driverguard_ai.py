@@ -1,10 +1,9 @@
 # =============================================================================
 #  DriverGuard AI — Smart Driver Safety System
-#  Author  : Senior Python & Computer Vision Developer
 #  Version : 2.0 PRO
 #
 #  UNIQUE FEATURES:
-#  ✅ Named Driver Alerts ("Rajesh, WAKE UP!")
+#  ✅ Named Driver Alerts ("Ashu, WAKE UP!")
 #  ✅ Live EAR Graph on Dashboard
 #  ✅ Fatigue Score (0–100) with Accident Risk Level
 #  ✅ Auto Screenshot on Drowsiness
