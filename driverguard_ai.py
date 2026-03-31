@@ -1,7 +1,5 @@
 # =============================================================================
 #  DriverGuard AI — Smart Driver Safety System
-#  Version : 2.0 PRO
-#
 #  UNIQUE FEATURES:
 #  ✅ Named Driver Alerts ("Ashu, WAKE UP!")
 #  ✅ Live EAR Graph on Dashboard
@@ -21,7 +19,7 @@
 #
 #  DRIVER REGISTRATION:
 #  - Run with --register flag to add a new driver face:
-#    python driverguard_ai.py --register "YourName"
+#    python driverguard_ai.py --register "YourName"  sometimes it will not work , due to lack of files dependency..
 #  - Then run normally: python driverguard_ai.py
 # =============================================================================
 
@@ -59,7 +57,7 @@ DRIVER_DB_FILE    = "drivers.pkl"            # Saved driver face encodings
 SCREENSHOTS_DIR   = "drowsy_screenshots"     # Folder for auto screenshots
 
 EAR_THRESHOLD     = 0.25                     # Below this = eyes closed
-CONSEC_FRAMES     = 20                       # Frames before alarm triggers
+CONSEC_FRAMES     = 20                       # Frames before alarm triggers ,  Change here if you want more accurate readings as per the camera and where it is placed 
 EAR_HISTORY_LEN   = 60                       # Points on live EAR graph
 
 # Alarm
