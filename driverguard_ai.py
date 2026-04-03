@@ -15,7 +15,7 @@
 #  EMAIL SETUP:
 #  - Set SENDER_EMAIL, SENDER_PASSWORD, RECEIVER_EMAIL below
 #  - For Gmail: enable "App Passwords" in Google Account settings
-#    (Google Account → Security → 2-Step Verification → App Passwords)
+#    (Google Account → Security → 2-Step Verification → App Passwords) use gpt for more better explanation 
 #
 #  DRIVER REGISTRATION:
 #  - Run with --register flag to add a new driver face:
